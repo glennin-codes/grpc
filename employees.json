@@ -1,0 +1,14 @@
+[
+   {
+      "name": "hamesi",
+      "age": 34,
+      "occupation": "developer",
+      "sallary": 1000
+   },
+   {
+      "name": "baamesi",
+      "age": 30,
+      "occupation": "senior developer",
+      "sallary": 1000
+   }
+]
