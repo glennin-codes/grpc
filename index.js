@@ -17,6 +17,10 @@ employees.push(amos);
 // console.log(JSON.stringify(employees,null,3));
 const json=JSON.stringify(employees,null,3);
 // const employees2=JSON.parse(json);
-console.log(employees2);
+//console.log(employees2);
 
 fs.writeFileSync(path.join(__dirname,'employees.json'),json)
+
+
+const employess2=JSON.parse(fs.readFileSync(path.join(__dirname,"employees.json")));
+console.log(employess2);
